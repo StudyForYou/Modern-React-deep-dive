@@ -27,6 +27,6 @@ renderToStaticMarkup과 마찬가지로 리액트 자바스크립트에 필요�
 
 `renderToString`과 `renderToNodeStream`으로 생성된 HTML 콘텐츠에 자바스크립트 핸들러나 이벤트를 붙이는 역할을 한다. hydrate는 이처럼 정적으로 생성된 HTML에 이벤트와 핸들러를 붙여 완전한 웹페이지 결과물을 만든다. render와의 차이점으로 hydrate는 기본적으로 이미 렌더링된 HTML이 있다는 가정하에 작업이 수행되고, 이 렌더링된 HTML을 기준으로 이벤트를 붙이는 작업만 실행한다. 아무것도 없는 빈 HTML에 렌더링하는 render와의 차이점이 이것이다.
 
-<!-- ### 6. SSR 예제
+### 6. SSR 예제
 
-#### 1) index.tsx -->
+> https://github.com/wikibook/react-deep-dive-example/tree/main/chapter4/ssr-example/src
